@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button'
 function NavBar() {
   return (
-    <Navbar expand="lg" className='sticky-top' bg="dark" variant="dark">
+    <Navbar expand="lg" className='sticky-top' style={{backgroundColor: '#8D72E1'}} variant="dark">
         <Container>
             <Navbar.Brand>My_Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -17,7 +17,7 @@ function NavBar() {
                     <Nav.Link>Projects</Nav.Link>
                     <Nav.Link>Contact</Nav.Link>
                 </Nav>
-                <Button variant="primary" size="sm" href="https://m.me/wunnaaung99.m.me">Chat with me</Button>
+                <Button style={{backgroundColor: '#6C4AB6'}} size="sm" href="https://m.me/wunnaaung99.m.me">Chat with me</Button>
             </Navbar.Collapse>
         </Container>
     </Navbar>

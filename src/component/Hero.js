@@ -4,19 +4,19 @@ import './Hero.css';
 import MyImage from '../img/Wunna.jpg'
 import { BsArrowBarDown } from 'react-icons/bs';
 import { BsArrowDownRight } from 'react-icons/bs';
+import '../component/Title.css';
 function Hero() {
   return (
-    <div className='mt-4 d-flex align-items-start col-12' id='home'>
-        <div className='col-8'>
-            <h1><span className='fs-2 fw-semibold'>Hi! I am</span> <span className='bg-primary text-light p-2 rounded-pill fs-6 fw-semibold'>Front-end developer</span><br/><span className='fs-1'>Wunna Aung</span></h1>
-            <p className='col-6 mt-3 fw-normal'>I am passionate about web development. I have one year experience of learning web development.</p>
-            <div>
-                <button className='custom-btn fw-semibold'>Download CV <BsArrowBarDown /></button>
-                <button className='project-btn'>View Projects <BsArrowDownRight /></button>
-            </div>
+    <div className='mt-4 d-flex justify-content-between align-items-center ps-lg-5 col-12' id='home'>
+        <div className='col-lg-8 col-9'>
+            <h1 className='title-txt'><span className='text-secondary'>Hi! I am</span><br/><span className='fw-bold' style={{color: '#FEFCF3'}}>Wunna Aung</span></h1>
+            <h4 className='fst-italic' style={{color: '#3F0071'}}>Front-end Developer</h4>
+            <p className=' mt-3 fw-normal col-lg-6 col-8'>I am passionate about web development. I have one year experience of learning web development.</p>
+            <button className='custom-btn title-txt'>Download CV <BsArrowBarDown /></button>
+            <button className='project-btn title-txt'>View Projects <BsArrowDownRight /></button>
         </div>
-        <div className='col-7'>
-            <img className='col-4' src={MyImage}/>
+        <div className='col-lg-6 col-6 col-md-6'>
+            <img className='col-lg-6 col-6 col-md-6' src={MyImage}/>
         </div>
     </div>
   )

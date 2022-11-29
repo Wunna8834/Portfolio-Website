@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.title-txt {
+    font-family: 'Karla', sans-serif;
+}
+
+.skill-txt {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-txt {
+    font-family: 'Roboto', sans-serif;
+}
