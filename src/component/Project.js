@@ -12,7 +12,7 @@ import Button from 'react-bootstrap/Button';
 import '../component/Title.css';
 function Project() {
   return (
-    <div className='mt-5'>
+    <div className='mt-5' id='projects'>
         <h2 className='text-center title-txt'>Projects</h2>
         <CardGroup className='col-12 gap-2 mt-4'>
           <Card className='col-lg-3 col-sm-12 col-md-8'>
@@ -47,18 +47,18 @@ function Project() {
             <CardImg src={Crud}/>
             <Card.Body>
               <Card.Title>CRUD Project</Card.Title>
-              <Badge bg="primary">JSON Server</Badge>
+              <Badge bg="secondary">JSON Server</Badge>
              
-              <Badge bg="success" className='ms-1'>React</Badge>
+              <Badge bg="info" className='ms-1'>React</Badge>
             </Card.Body>
           </Card>
           <Card className='col-lg-3 col-sm-12 cod-md-8'>
             <CardImg src={TravelAgency}/>
             <Card.Body>
               <Card.Title>Travel Agency Website</Card.Title>
-              <Badge bg="primary">Bootstrap</Badge>
+              <Badge bg="warning">Bootstrap</Badge>
              
-              <Badge bg="success" className='ms-1'>React</Badge>
+              <Badge bg="info" className='ms-1'>React</Badge>
             </Card.Body>
           </Card>
           
